@@ -25,7 +25,7 @@ var lyricsData = [
   { text: "Que vendría a buscarla, con sus flores amarillas", time: 147 },
   { text: "No te apures no detengas, el instante del encuentro", time: 155 },
 
-  { text: 'Está dicho que es un hecho, no la pierdas no hay derecho", time: 172 },
+  { text: "Está dicho que es un hecho, no la pierdas no hay derecho", time: 172 },
   { text: "No te olvides, que la vida", time: 180 },
   { text: "Casi nunca está dormida", time: 188 },
 
