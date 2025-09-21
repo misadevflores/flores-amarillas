@@ -4,34 +4,37 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Él la estaba esperando con una flor amarilla", time: 12 },
+  { text: "Ella lo estaba soñando con la luz en su pupila", time: 18 },
+  { text: "Y el amarillo del sol iluminaba la esquina (la esquina)", time: 26 },
+  { text: "Lo sentía tan cercano, lo sentía desde niña", time: 33 },
+  { text: "Ella sabía que él sabía, que algún día pasaría", time: 40 },
+
+  { text: "Que vendría a buscarla, con sus flores amarillas", time: 55 },
+  { text: "No te apures no detengas, el instante del encuentro", time: 62 },
+  { text: "Está dicho que es un hecho, no la pierdas no hay derecho", time: 70 },
+  { text: "No te olvides, que la vida", time: 78 },
+
+  { text: "Casi nunca está dormida", time: 95 },
+  { text: "En ese bar tan desierto los esperaba el encuentro (el encuentro)", time: 101 },
+  { text: "Ella llegó en limosina amarilla por supuesto", time: 108 },
+  { text: "Él se acercó de repente y la miró tan de frente (de frente)", time: 116 },
+
+  { text: "Toda una vida soñada y no pudo decir nada", time: 132 },
+  { text: "Ella sabía que él sabía, que algún día pasaría", time: 139 },
+  { text: "Que vendría a buscarla, con sus flores amarillas", time: 147 },
+  { text: "No te apures no detengas, el instante del encuentro", time: 155 },
+
+  { text: 'Está dicho que es un hecho, no la pierdas no hay derecho", time: 172 },
+  { text: "No te olvides, que la vida", time: 180 },
+  { text: "Casi nunca está dormida", time: 188 },
+
+  { text: "Ella sabía que él sabía, que algún día pasaría", time: 200 },
+  { text: "Que vendría a buscarla, con sus flores amarillas", time: 208 },
+  { text: "No te apures no detengas, el instante del encuentro", time: 216 },
+  { text: "Está dicho que es un hecho, no la pierdas no hay derecho", time: 224 },
 ];
+
 
 // Animar las letras
 function updateLyrics() {
